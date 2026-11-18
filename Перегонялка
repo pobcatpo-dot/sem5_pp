@@ -1,0 +1,10 @@
+pervyy = input("Откуда: ")
+vtoroy = input("Куда: ")
+
+with open(pervyy, "r", encoding="utf-8") as f:
+    tekst = f.read()
+
+with open(vtoroy, "w", encoding="utf-8") as f:
+    f.write(tekst)
+
+print("Скопировано")
