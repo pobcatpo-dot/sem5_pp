@@ -1,0 +1,17 @@
+    {'track': 'Безопасный танец', 'artist': 'Монеточка'},
+    {'track': 'Камикадзе', 'artist': 'Монеточка'},
+    {'track': 'Пачка сигарет', 'artist': 'Кино'},
+    {'track': 'Группа крови', 'artist': 'Кино'},
+    {'track': 'Владимирский централ', 'artist': 'Михаил Круг'},
+    {'track': 'Научусь летать', 'artist': 'МакSим'},
+    {'track': 'Мой друг', 'artist': 'Машина Времени'},
+    {'track': 'Перемен', 'artist': 'Кино'},
+    {'track': 'Любовь', 'artist': 'Руки Вверх'},
+    {'track': 'Dance Monkey', 'artist': 'Tones and I'},
+    {'track': 'Blinding Lights', 'artist': 'The Weeknd'},
+    {'track': 'Bad Guy', 'artist': 'Billie Eilish'},
+    {'track': 'Shape of You', 'artist': 'Ed Sheeran'},
+    {'track': 'Беспечный ангел', 'artist': 'Ария'},
+    {'track': 'Я свободен', 'artist': 'Кипелов'},
+
+
