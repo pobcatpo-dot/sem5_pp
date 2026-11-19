@@ -1,0 +1,31 @@
+import os
+
+def sobirat_vse():
+    """Жадина: читает все файлы рядом (кроме себя) и пишет в GREEDY.TXT"""
+    
+    # папка, где лежит сама программа
+    papka = os.path.dirname(os.path.abspath(__file__))
+    moya_proga = "greedy.py"
+    vyhod = "GREEDY.TXT"
+    
+    # все файлы в папке, кроме себя и выходного
+    vse = []
+    for imya in os.listdir(papka):
+        put = os.path.join(papka, imya)
+        if os.path.isfile(put) and imya != moya_proga and imya != vyhod:
+            vse.append(imya)
+    
+    # по алфавиту
+    vse.sort()
+    
+    with open(os.path.join(papka, vyhod), "w", encoding="utf-8") as out:
+        for imya in vse:
+            out.write(f"{imya}\n")
+            with open(os.path.join(papka, imya), "r", encoding="utf-8") as f:
+                out.write(f.read())
+            out.write("\n\n")
+    
+    print(f"Собрано файлов: {len(vse)} -> {vyhod}")
+
+if __name__ == "__main__":
+    sobirat_vse()
